@@ -281,8 +281,8 @@
   <!-- HOME / HERO -->
   <section id="home">
     <div class="hero-eyebrow mono">NOW PLAYING — SHOWREEL 2026</div>
-    <h1 class="hero-title">Cuts that hold<br>your <span class="grade">attention.</span></h1>
-    <p class="hero-sub">I'm a video editor working across short-form social cuts and long-form narrative pieces. This page is a running timeline of the work — scrub through it below.</p>
+    <h1 class="hero-title">Sumit<br> <span class="grade">Mehta</span></h1>
+    <p class="hero-sub">I'm a video editor and motion designer working across short-form social cuts and long-form narrative pieces. This page is a running timeline of the work — scrub through it below.</p>
     <div class="hero-actions">
       <a href="#longform" class="btn-primary">Watch the reel</a>
       <a href="#contact" class="btn-ghost">Get in touch</a>
@@ -301,7 +301,7 @@
   <!-- SHORT VIDEOS -->
   <section id="shortform" class="section-wrap">
     <div class="clip-label"><span class="tc-badge mono">00:24</span></div>
-    <h2 class="section-title">Short Cuts</h2>
+    <h2 class="section-title">Short Form </h2>
     <p class="section-desc">Vertical, fast-paced edits made for Reels, Shorts and TikTok. Quick hooks, tight rhythm.</p>
     <div class="shorts-grid" id="shortsGrid"></div>
     <div class="empty-state" id="shortsEmpty" style="display:none;">
@@ -312,7 +312,7 @@
   <!-- LONG VIDEOS -->
   <section id="longform" class="section-wrap">
     <div class="clip-label"><span class="tc-badge mono">01:12</span></div>
-    <h2 class="section-title">Feature Cuts</h2>
+    <h2 class="section-title">Long form</h2>
     <p class="section-desc">Long-form work: narrative edits, documentaries, brand films and full YouTube episodes.</p>
     <div class="long-strip" id="longStrip"></div>
     <div class="empty-state" id="longEmpty" style="display:none;">
@@ -326,13 +326,12 @@
     <h2 class="section-title">About</h2>
     <div class="about-grid">
       <div>
-        <p>I edit stories, not just footage. Every cut starts with pacing — where a scene breathes, where it snaps forward, where music and picture lock together. I work in Premiere Pro and DaVinci Resolve, across colour, sound design and motion graphics.</p>
-        <p>Replace this paragraph with your own bio — your background, tools, and the kind of projects you want more of.</p>
+        <p>I edit stories, not just footage. Every cut starts with pacing — where a scene breathes, where it snaps forward, where music and picture lock together. I work in After effects and Premiere Pro, across colour, sound design and motion graphics.</p>
       </div>
       <div class="stat-list">
-        <div class="stat"><div class="num">150+</div><div class="lbl mono">PROJECTS DELIVERED</div></div>
-        <div class="stat"><div class="num">6</div><div class="lbl mono">YEARS EDITING</div></div>
-        <div class="stat"><div class="num">4</div><div class="lbl mono">NLEs MASTERED</div></div>
+        <div class="stat"><div class="num">20+</div><div class="lbl mono">PROJECTS DELIVERED</div></div>
+        <div class="stat"><div class="num">2+</div><div class="lbl mono">YEARS EDITING</div></div>
+        
       </div>
     </div>
   </section>
@@ -340,8 +339,8 @@
   <!-- CONTACT -->
   <section id="contact" class="section-wrap">
     <div class="clip-label" style="justify-content:center;"><span class="tc-badge mono">02:40</span></div>
-    <h2 class="section-title">Let's cut something together.</h2>
-    <a href="mailto:hello@yourname.com" class="contact-email">hello@yourname.com</a>
+    <h2 class="section-title">Let's make something together.</h2>
+    <a href="mailto:newcompedits@gmail.com" class="contact-email">newcompedits@gmail.com</a>
   </section>
 
   <footer>
@@ -367,9 +366,10 @@
      desc: (long only) one-line note about the project
   ==================================================================== */
   const DEFAULT_VIDEOS = [
-    { type:"short", url:"https://youtu.be/b9k0_eZzx6U?si=6jN54fnDXAAfpdmW", title:"Brand teaser — 15s cut", tag:"REELS" },
-    { type:"short", url:"https://youtu.be/dQw4w9WgXcQ", title:"Product hook — 22s cut", tag:"TIKTOK" },
-    { type:"long",  url:"https://youtu.be/Ctd7_K-zHrA?si=fYPNonyXRI0LQq51", title:"Client X — Full Story", desc:"A short documentary edited for Client X's product launch." },
+    { type:"short", url:"https://youtu.be/b9k0_eZzx6U?si=6jN54fnDXAAfpdmW", title:"Real estate video", tag:"REELS" },
+    { type:"short", url:"https://youtube.com/shorts/9wUJNL5coMw?si=lON4fib_-WbANu4b", title:"Ad video", tag:"REELS" },
+    { type:"short", url:"https://youtube.com/shorts/4127-ljL0hw", title:"Realestate Ad video", tag:"REELS" },
+    { type:"long",  url:"https://youtu.be/Ctd7_K-zHrA?si=RG7hIy0a9e5PUUlh", title:"Long form video", desc:"A short documentary edited for Client." },
   ];
 
   function extractYouTubeId(input){
